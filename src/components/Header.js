@@ -52,7 +52,7 @@ const Header = () => {
                     <button className="hamburger" onClick={toggleMenu} data-testid="hamburgerButton"  >
                         {isMenuOpen ? <i className="fa-solid fa-xmark"></i> : <i className="fa-solid fa-bars hamburger-icon"></i>}  
                     </button> : ""
-                };
+                }
             </div>
             <div className={`nav-items ${isMenuOpen ? "open" : ""}`}>
                 <ul>
