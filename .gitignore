@@ -1,4 +1,4 @@
 /node_modules
 /dist
-.parcel-cashe
+.parcel-cashe/data.mdb
 /coverage
