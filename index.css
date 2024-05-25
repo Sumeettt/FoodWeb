@@ -603,7 +603,10 @@ a {
 .about {
     padding-top: 120px;
     text-align: center;
-    
+}
+
+.github-logo {
+    font-size: 30px;
 }
 
 /*About - Media Queries for Responsive Design */
