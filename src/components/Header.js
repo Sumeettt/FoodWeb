@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
-import { LOGO } from "../utils/constants";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import { useSelector } from "react-redux";
-
+import logo from "../../assets/logo.png"
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +34,7 @@ const Header = () => {
         return (
             <Link to="/cart">
                 <i className="fa-solid fa-cart-shopping cart-icon" data-testid= "cartIcon" ></i> 
-                <span className="cart-item-count" data-testid="cartItemCount"   >({cartItemCount})</span> 
+                <span className="cart-item-count" data-testid="cartItemCount">({cartItemCount})</span> 
             </Link>
         )
     }
@@ -43,7 +42,7 @@ const Header = () => {
     return (
         <div className="header">
             <div className="logo-container">
-                <Link to="/"><img className="logo" alt="logo" src={LOGO} /></Link>     
+                <Link to="/"><img className="logo" alt="logo" src={logo} /></Link>     
             </div>
             <div className="cart-hamburger-container">
                 {windowWidth <= 768 ? getCart() : ""
