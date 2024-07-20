@@ -5,7 +5,7 @@
 ### Tech Stacks: React.js, Parcel, Redux Toolkit, Jest
 
 
-* Created a food ordering app with a strong emphasis on frontend development, fetching real-time data from Swiggy's API.
+* Created a food ordering app with a strong emphasis on frontend development, fetching real-time data from Swiggy's API. 
 
 <div style="text-align: center;">
     <img src="https://github.com/Sumeettt/FoodWeb/blob/main/assets/Home.png" alt="home" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)" />
