@@ -2,7 +2,7 @@
 
 # FoodWeb
 
-### Tech Stacks: React.js, Parcel, Redux Toolkit, Jest
+### Tech Stack: React.js, Parcel, Redux Toolkit, Jest
 
 
 * Created a food ordering app with a strong emphasis on frontend development, fetching real-time data from Swiggy's API. 
